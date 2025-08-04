@@ -1,0 +1,81 @@
+/* ===== Global Layout ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('recipe1.jpeg'); /* तुझ्या actual image path ने replace कर */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+    text-align: center;
+    color: #4e342e; /* Soft brown */
+    background-color: rgba(241, 250, 240, 0.759);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ===== Search Box ===== */
+.search-box {
+    background-color: rgba(255, 248, 225, 0.9);
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #d7ccc8;
+    border-radius: 8px;
+    width: 60%;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* ===== Button ===== */
+button {
+    padding: 10px 20px;
+    background-color: #8d6e63; /* soft brown */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #6d4c41;
+}
+
+/* ===== Recipe Result Section ===== */
+#recipeResult {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ===== All Recipes List ===== */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
