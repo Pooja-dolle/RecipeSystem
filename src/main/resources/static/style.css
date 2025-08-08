@@ -1,4 +1,3 @@
-/* ===== Global Layout ===== */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url('recipe1.jpeg'); /* तुझ्या actual image path ने replace कर */
@@ -10,7 +9,6 @@ body {
     padding: 20px;
 }
 
-/* ===== Headings ===== */
 h1, h2 {
     text-align: center;
     color: #4e342e; /* Soft brown */
@@ -18,8 +16,6 @@ h1, h2 {
     padding: 10px;
     border-radius: 10px;
 }
-
-/* ===== Search Box ===== */
 .search-box {
     background-color: rgba(255, 248, 225, 0.9);
     padding: 15px;
@@ -39,10 +35,9 @@ input[type="text"] {
     font-size: 16px;
 }
 
-/* ===== Button ===== */
 button {
     padding: 10px 20px;
-    background-color: #8d6e63; /* soft brown */
+    background-color: #8d6e63; 
     color: white;
     border: none;
     border-radius: 8px;
@@ -54,7 +49,6 @@ button:hover {
     background-color: #6d4c41;
 }
 
-/* ===== Recipe Result Section ===== */
 #recipeResult {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 15px;
@@ -64,7 +58,6 @@ button:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* ===== All Recipes List ===== */
 ul {
     list-style-type: none;
     padding: 0;
