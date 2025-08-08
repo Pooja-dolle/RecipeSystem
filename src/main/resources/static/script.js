@@ -1,4 +1,3 @@
-
 window.onload = function () {
     fetch("http://localhost:8888/api/recipes")
         .then(response => response.json())
